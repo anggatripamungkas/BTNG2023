@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.font {
+  color: white;
+}
+.red {
+  color: red;
+}
+.ke-atas-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.ke-bawah-link {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+#tabel {
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,42 @@
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.img {
+  display: block;
+  margin: 0 auto;
+}
+.h2 {
+  text-align: center;
+  font-size: 30px;
+}
+body {
+  background-image: url("https://lh5.googleusercontent.com/proxy/29S3p75kt4mm8RVIsAXl2yeAxQrqm573q-LjPQwBAnEOIwxvhECWYVZMkvhQ3-59cnWel09E7RAUW94ux-VeZhSVf98h67ZXT6ZUfbwCTOZ9mXW4EPtQYAe_N5QeAnL4tcNp4YAux914jjIk0w=s0-d");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+label {
+  margin-right: 30px;
+}
+form {
+  margin-top: 0;
+}
+
+input {
+  margin-bottom: 10px;
+}
+#pesan {
+  color: rgb(2, 255, 2);
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
