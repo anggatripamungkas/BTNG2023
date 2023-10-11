@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Starbucks Landing Page</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left-side">
+        <img src="./assets/img/logo.png" alt="" />
+      </div>
+      <div class="right-side">
+        <div class="nav">
+          <a href="#container">Home</a>
+        </div>
+        <div class="nav">
+          <a href="#bottom">Menu</a>
+        </div>
+        <div class="nav">
+          <a href="#Contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="left-side">
+        <h1 id="container">
+          It's not just Coffee <br />
+          It's <span class="green"> Starbucks </span>
+        </h1>
+        <p class="isi">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+          sunt cumque pariatur sint dignissimos odio sit facilis porro veritatis
+          earum itaque similique voluptatem dolores est ipsum, sequi non
+          temporibus, quae.
+        </p>
+        <a href="">Learn More</a>
+      </div>
+      <div class="right-side">
+        <img src="./assets/img/img1.png" alt="" class="starbucks" />
+        <div class="box">
+          <a href="#" id="Contact">
+            <img class="facebook" src="./assets/img/facebook.png" alt=""
+          /></a>
+          <a href="#"> <img src="./assets/img/instagram.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="thumb">
+      <a href="#bottom"
+        ><img
+          id="bottom"
+          src="./assets/img/thumb1.png"
+          onclick="imgSlider('./assets/img/img1.png');"
+        />
+      </a>
+      <a href="#bottom"
+        ><img
+          src="./assets/img/thumb2.png"
+          onclick="imgSlider('./assets/img/img2.png');"
+        />
+      </a>
+      <a href="#bottom"
+        ><img
+          src="./assets/img/thumb3.png"
+          onclick="imgSlider('./assets/img/img3.png');"
+        />
+      </a>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

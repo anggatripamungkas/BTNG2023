@@ -1,0 +1,124 @@
+body {
+  background: rgba(0, 0, 0, 0.413);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+
+header .left-side a img {
+  width: 80px;
+}
+
+header .right-side {
+  display: flex;
+}
+
+header .right-side .nav a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+header .nav a:hover {
+  color: rgb(8, 255, 8);
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 90%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.container .left-side {
+  text-align: left;
+  flex: 1;
+}
+
+.container .left-side h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.container .left-side h1 .green {
+  color: rgb(85, 242, 85);
+  font-family: "Viga", serif;
+  text-decoration: underline;
+}
+
+.container .left-side p {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.container .left-side a {
+  display: inline-block;
+  background: green;
+  padding: 12px 18px 12px 18px;
+  text-decoration: none;
+  border-radius: 25px;
+  color: white;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.left-side a:hover {
+  background: rgb(255, 0, 0);
+}
+
+.container .right-side {
+  flex: 1;
+  text-align: center;
+}
+
+.container .right-side img {
+  width: 330px;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+.container .right-side .box {
+  display: grid;
+  position: absolute;
+  bottom: 40%;
+  right: 1%;
+}
+
+.container .right-side .box img {
+  width: 25px;
+  margin: 10px;
+}
+
+.container .right-side .box img.facebook {
+  width: 18.5px;
+}
+
+.thumb {
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+}
+
+.thumb a:hover {
+  margin-top: -15px;
+  transition: 0.2s;
+}
+
+.thumb img {
+  width: 54px;
+  margin: 20px;
+}
+.thumb img:hover {
+  width: 64px;
+  margin: 20px;
+}
+.isi {
+  background-color: rgba(255, 255, 255, 0.448);
+  padding: 7px;
+  border-radius: 25px;
+}
