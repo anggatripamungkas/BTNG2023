@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Navbar</title>
+    <!--  Bootstrap CSS link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!--  Bootstrap CSS link -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3">
+      <a class="navbar-brand" href="#">My Website</a>
+      <!--  Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--  Button -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="p-5 m-2 bg-warning">
+      <h1 class="text-center text-primary bg-danger">Judul</h1>
+      <div class="text-center bg-primary p-3">Isi</div>
+      <div class="text-center text-danger bg-light p-3">end</div>
+    </main>
+    <hr />
+    <latihan-layout>
+      <div class="row">
+        <div class="col-12 bg-danger text-light">
+          <h1 class="text-center">Judul col(12)</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-4 bg-success text-light">
+            Sidebar
+            <ul>
+              <li>Menu 1</li>
+              <li>Menu 2</li>
+              <li>Menu 3</li>
+            </ul>
+          </div>
+          <div class="col-8 bg-warning text-light">
+            <p class="text-center">content</p>
+            <div class="row">
+              <div class="col-3 bg-light text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                sapiente animi modi quaerat numquam, voluptatibus rerum!
+              </div>
+              <div class="col-3 bg-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                cupiditate nobis voluptas, molestiae, necessitatibus quae!
+              </div>
+              <div class="col-3 bg-dark">lorem, lorem lorem</div>
+              <div class="col-3 bg-secondary">lorem, lorem lorem</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-12 bg-info text-center">footer</div>
+      </div>
+    </latihan-layout>
+    <hr />
+    <flexbox>
+      <div class="d-flex flex-row-reverse">
+        <div class="box p-3 bg-danger text-light fw-bold">Box 1</div>
+        <div class="box p-3 bg-warning text-light fw-bold">Box 2</div>
+        <div class="box p-3 bg-info text-light fw-bold">Box 3</div>
+      </div>
+      <div class="d-flex justify-content-center mt-2">
+        <div
+          class="box p-3 bg-danger text-light fw-bold border border-dark border-5"
+        >
+          Box 1
+        </div>
+        <div class="box p-3 bg-warning text-light fw-bold border border-5">
+          Box 2
+        </div>
+        <div class="box p-3 bg-info text-light fw-bold rounded rounded-5">
+          Box 3
+        </div>
+      </div>
+      <div class="d-flex mt-2">
+        <div class="box p-3 bg-danger text-light fw-bold">Box 1</div>
+        <div class="box p-3 bg-warning text-light fw-bold">Box 2</div>
+        <div class="box p-3 bg-info text-light fw-bold shadow">Box 3</div>
+      </div>
+    </flexbox>
+
+    <colom12 class="d-flex mt-2">
+      <div class="col-1 bg-danger text-light">1</div>
+      <div class="col-1 bg-danger text-light">2</div>
+      <div class="col-1 bg-danger text-light">3</div>
+      <div class="col-1 bg-danger text-light">4</div>
+      <div class="col-1 bg-danger text-light">5</div>
+      <div class="col-1 bg-danger text-light">6</div>
+      <div class="col-1 bg-danger text-light">7</div>
+      <div class="col-1 bg-danger text-light">8</div>
+      <div class="col-1 bg-danger text-light">9</div>
+      <div class="col-1 bg-danger text-light">10</div>
+      <div class="col-1 bg-danger text-light">11</div>
+      <div class="col-1 bg-danger text-light">12</div>
+    </colom12>
+    <div class="row mt-2">
+      <div class="col-6 bg-danger text-light">6</div>
+      <div class="col-6 bg-warning text-light">6</div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-8 bg-danger text-light">8</div>
+      <div class="col-4 bg-warning text-light">4</div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-3 bg-danger text-light">3</div>
+      <div class="col-3 bg-warning text-light">3</div>
+      <div class="col-6 bg-primary text-light">6</div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery script links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS and jQuery script links -->
+  </body>
+</html>
